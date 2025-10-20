@@ -1,7 +1,7 @@
 # Requirement Analysis in Software Development
 A repository that explains requirement analysis in web development. A lesson taught from ALX-PRO Front End Development.
 # What is Requirement Analysis?
-Requirement Analysis: is the process of **identifying, gathering, analyzing, and documenting** the needs and expectations of stakeholders for a new or modified software system.
+Requirement Analysis: is the process of **identifying, gathering, analysing, and documenting** the needs and expectations of stakeholders for a new or modified software system.
 It helps ensure that the software developed will meet user needs, business goals, and technical feasibility.
 
 In simpler terms, it’s the foundation phase where developers and clients agree on *what the system should do* before any actual coding begins.
