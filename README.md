@@ -271,7 +271,8 @@ Non-functional requirements describe **how the system performs its functions**, 
 
  🔹 **Data Integrity and Consistency**
 
-* The system must ensure **real-time synchronization** of room availability across all booking channels.
-* Data replication between master and replica databases must occur within **1 second delay**.
+* The system must ensure **real-time synchronisation** of room availability across all booking channels.
+* Data replication between master and replica databases must occur within **1-second delay**.
 
+Use Case Diagrams
 
