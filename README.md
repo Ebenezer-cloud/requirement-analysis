@@ -1,3 +1,4 @@
+<img width="812" height="942" alt="alx-booking-uc png" src="https://github.com/user-attachments/assets/95736f02-f4bc-4979-b062-5cd890fa837e" />
 # Requirement Analysis in Software Development
 A repository that explains requirement analysis in web development. A lesson taught from ALX-PRO Front End Development.
 # What is Requirement Analysis?
@@ -339,9 +340,57 @@ In simple terms —
 5. 🔍 **Helps Identify Missing or Redundant Features**
    – By visualising interactions, you can spot overlaps or gaps early in design.
    **Hotel Booking System using a case diagram**
- Image: alx-booking-uc.png
-<img width="812" height="942" alt="alx-booking-uc.png" src="https://github.com/user-attachments/assets/7e4f2009-42e3-467c-8508-7cfb5c2f8984" />
+
+### Acceptance Criteria
+
+### 🧭 **Importance of Acceptance Criteria in Requirement Analysis**
+
+**Acceptance Criteria (AC)** are a set of predefined conditions that a software product or feature must meet to be accepted by the client, user, or product owner. They are written during the **requirement analysis phase** to define **when a user story or requirement is considered complete and successful.**
 
 
+### 💡 **Importance of Acceptance Criteria**
 
+1. **✅ Clarifies Requirements**
+
+   * Acceptance criteria translate high-level requirements into **specific, testable expectations**.
+   * This ensures that developers, testers, and stakeholders have a shared understanding of what “done” means.
+
+2. **🧩 Ensures Alignment Between Stakeholders**
+
+   * They prevent misunderstandings between clients, analysts, and developers by clearly defining the desired outcomes.
+
+3. **🔍 Guides Testing and Validation**
+
+   * Testers use acceptance criteria to create **test cases** and verify that each feature behaves as expected.
+
+4. **⚙️ Supports Agile Development**
+
+   * In Agile, each user story includes acceptance criteria to ensure **incremental delivery** meets business value.
+
+5. **🕵️ Helps Identify Missing Requirements**
+
+   * By reviewing acceptance criteria, analysts can spot gaps or ambiguous requirements early in the project.
+
+6. **📏 Defines “Done” for Each Feature**
+
+   * A feature is considered complete only when it satisfies **all acceptance criteria**, improving accountability and quality assurance.
+
+
+### 🧾 **Example: Acceptance Criteria for the Checkout Feature in a Booking Management System**
+
+**User Story:**
+*As a customer, I want to complete my booking by making a secure payment so that I can confirm my reservation.*
+
+**Acceptance Criteria:**
+
+1. ✅ The user must be able to review booking details (hotel name, room type, price, dates) before payment.
+2. ✅ The system should allow payment through valid methods (credit card, debit card, mobile wallet).
+3. ✅ Payment must be processed through a **secure payment gateway (SSL encrypted)**.
+4. ✅ On successful payment, the system must:
+
+   * Generate a **unique booking ID**.
+   * Send a **confirmation email/SMS** to the customer.
+5. ✅ If payment fails, the system should display an **error message** and allow the user to retry.
+6. ✅ The booking record must be updated in the database with a **“Confirmed”** status after successful payment.
+7. ✅ The system must prevent duplicate transactions for the same booking.
 
