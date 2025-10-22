@@ -313,13 +313,13 @@ In simple terms —
 * Borrow Book
 * Return Book
 * Add New Book
-* Search Catalog
+* Search Catalogue
 
 📘 **Diagram Meaning:**
 
 * The *Member* actor connects to “Borrow Book” and “Return Book.”
 * The *Librarian* actor connects to “Add New Book.”
-* Both interact with “Search Catalog.”
+* Both interact with “Search Catalogue.”
 
 
 ### 🌟 **Benefits of Use Case Diagrams**
@@ -338,5 +338,6 @@ In simple terms —
 
 5. 🔍 **Helps Identify Missing or Redundant Features**
    – By visualising interactions, you can spot overlaps or gaps early in design.
-
+   **Hotel Booking System using a case diagram**
+ https://drive.google.com/file/d/1B_mNp5MKiqtNtlCpuXUJtzPAA7Th8ng0/view?usp=sharing
 
