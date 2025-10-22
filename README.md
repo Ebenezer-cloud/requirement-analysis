@@ -274,5 +274,69 @@ Non-functional requirements describe **how the system performs its functions**, 
 * The system must ensure **real-time synchronisation** of room availability across all booking channels.
 * Data replication between master and replica databases must occur within **1-second delay**.
 
-Use Case Diagrams
+### Use Case Diagrams
+
+
+A Use Case Diagram is a visual representation of how a user (actor) interacts with a system.
+It’s part of the Unified Modelling Language (UML) and is mainly used during system analysis and design to show the functional requirements of a system.
+
+In simple terms —
+👉 It shows what the system does (use cases) and who uses it (actors).
+
+
+### 🧱 **Main Components**
+
+1. **Actors** – The users or external systems that interact with your system.
+   Example: *Customer, Admin, Payment Gateway*
+
+2. **Use Cases** – The actions or services the system performs for the actor.
+   Example: *Login, Register, Make Payment, View Report*
+
+3. **System Boundary** – A box that defines what’s inside (system features) and what’s outside (external users or systems).
+
+4. **Relationships** – The connections between actors and use cases:
+
+   * **Association (→)**: actor performs a use case.
+   * **Include (<<include>>)**: one use case always includes another.
+   * **Extend (<<extend>>)**: a use case optionally extends another.
+
+
+### 🧩 **Example (Library System)**
+
+**Actors:**
+
+* Librarian
+* Member
+
+**Use Cases:**
+
+* Borrow Book
+* Return Book
+* Add New Book
+* Search Catalog
+
+📘 **Diagram Meaning:**
+
+* The *Member* actor connects to “Borrow Book” and “Return Book.”
+* The *Librarian* actor connects to “Add New Book.”
+* Both interact with “Search Catalog.”
+
+
+### 🌟 **Benefits of Use Case Diagrams**
+
+1. ✅ **Clarifies Functional Requirements**
+   – Helps stakeholders see what the system should do.
+
+2. 👥 **Improves Communication**
+   – Provides a simple visual that both technical and non-technical people can understand.
+
+3. 🧩 **Defines System Boundaries**
+   – Clearly shows what’s part of the system and what isn’t.
+
+4. ⚙️ **Aids in Planning and Design**
+   – Forms the foundation for developing detailed use case descriptions, user stories, and test cases.
+
+5. 🔍 **Helps Identify Missing or Redundant Features**
+   – By visualising interactions, you can spot overlaps or gaps early in design.
+
 
