@@ -339,5 +339,6 @@ In simple terms —
 5. 🔍 **Helps Identify Missing or Redundant Features**
    – By visualising interactions, you can spot overlaps or gaps early in design.
    **Hotel Booking System using a case diagram**
- https://drive.google.com/file/d/1B_mNp5MKiqtNtlCpuXUJtzPAA7Th8ng0/view?usp=sharing
+ 
+<img width="812" height="942" alt="alx-booking-uc drawio" src="https://github.com/user-attachments/assets/d623a896-5c48-4efd-aeb1-8f89bb4b8999" />
 
