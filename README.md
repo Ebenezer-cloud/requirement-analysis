@@ -340,5 +340,6 @@ In simple terms —
    – By visualising interactions, you can spot overlaps or gaps early in design.
    **Hotel Booking System using a case diagram**
  
-<img width="812" height="942" alt="alx-booking-uc drawio" src="https://github.com/user-attachments/assets/d623a896-5c48-4efd-aeb1-8f89bb4b8999" />
+<img width="812" height="942" alt="alx-booking-uc" src="https://github.com/user-attachments/assets/1b1ccd8c-be7f-4da8-805a-a1e26cfa0828" />
+
 
